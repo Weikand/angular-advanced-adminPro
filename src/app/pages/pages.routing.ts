@@ -5,6 +5,7 @@ import {PagesComponent} from "./pages.component";
 import {DashboardComponent} from "./dashboard/dashboard.component";
 import {ProgressComponent} from "./progress/progress.component";
 import {Chart1Component} from "./chart1/chart1.component";
+import {AccountSettingsComponent} from "./account-settings/account-settings.component";
 
 const routes: Routes = [
   {
@@ -13,7 +14,8 @@ const routes: Routes = [
     children: [
       { path: '', component: DashboardComponent },
       { path: 'progress', component: ProgressComponent },
-      { path: 'chart1', component: Chart1Component }
+      { path: 'chart1', component: Chart1Component },
+      { path: 'account-settings', component: AccountSettingsComponent }
       // { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
     ]
   },

@@ -11,6 +11,7 @@ import {DashboardComponent} from './dashboard/dashboard.component';
 import {ProgressComponent} from './progress/progress.component';
 import {Chart1Component} from './chart1/chart1.component';
 import {PagesComponent} from './pages.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import {PagesComponent} from './pages.component';
     DashboardComponent,
     ProgressComponent,
     Chart1Component,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ],
   imports: [
     CommonModule,
@@ -31,7 +33,8 @@ import {PagesComponent} from './pages.component';
     DashboardComponent,
     ProgressComponent,
     Chart1Component,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ]
 })
 export class PagesModule { }
