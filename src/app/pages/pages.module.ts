@@ -12,6 +12,8 @@ import {ProgressComponent} from './progress/progress.component';
 import {Chart1Component} from './chart1/chart1.component';
 import {PagesComponent} from './pages.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     ProgressComponent,
     Chart1Component,
     PagesComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromisesComponent,
+    RxjsComponent
   ],
   imports: [
     CommonModule,
